@@ -795,6 +795,30 @@ button {
   display: none;
 }
 
+.animation-bottom {
+  transform: translate(0px, 120%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.animation-left {
+  transform: translate(-120%, 0px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.animation-right {
+  transform: translate(120%, 0px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.animation-opacity {
+  transform: translate(0px, 60%);
+  opacity: 0;
+  visibility: hidden;
+}
+
 .animation-bottom._start-anim {
   animation: transformBottom 0.4s ease-in-out forwards;
 }
@@ -823,11 +847,6 @@ button {
   }
 }
 @keyframes transformBottom {
-  0% {
-    transform: translate(0px, 120%);
-    opacity: 0;
-    visibility: hidden;
-  }
   100% {
     visibility: visible;
     transform: translate(0px, 0px);
@@ -835,11 +854,6 @@ button {
   }
 }
 @keyframes transformLeft {
-  0% {
-    transform: translate(-120%, 0px);
-    opacity: 0;
-    visibility: hidden;
-  }
   100% {
     visibility: visible;
     transform: translate(0px, 0px);
@@ -847,11 +861,6 @@ button {
   }
 }
 @keyframes transformRight {
-  0% {
-    transform: translate(120%, 0px);
-    opacity: 0;
-    visibility: hidden;
-  }
   100% {
     visibility: visible;
     transform: translate(0px, 0px);
@@ -859,11 +868,6 @@ button {
   }
 }
 @keyframes opacityAnimation {
-  0% {
-    transform: translate(0px, 60%);
-    opacity: 0;
-    visibility: hidden;
-  }
   100% {
     visibility: visible;
     transform: translate(0px, 0px);
