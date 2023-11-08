@@ -819,6 +819,21 @@ button {
   visibility: hidden;
 }
 
+.animation-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (min-width: 767.98px) {
+  .main-tabs__trigger-items {
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .main-tabs__trigger-items._start-anim {
+    animation: transformLeft 0.6s ease-in-out forwards;
+  }
+}
 .animation-bottom._start-anim {
   animation: transformBottom 0.4s ease-in-out forwards;
 }
@@ -833,6 +848,10 @@ button {
 
 .animation-opacity._start-anim {
   animation: opacityAnimation 0.7s ease-in-out forwards;
+}
+
+.animation-hidden._start-anim {
+  animation: opacityAnimat 0.7s ease-in-out forwards;
 }
 
 @media (max-width: 767.98px) and (min-width: 487.98px) {
@@ -871,6 +890,12 @@ button {
   100% {
     visibility: visible;
     transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes opacityAnimat {
+  100% {
+    visibility: visible;
     opacity: 1;
   }
 }
