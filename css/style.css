@@ -796,24 +796,28 @@ button {
 }
 
 .animation-bottom {
+  transition: all 0.6s ease 0s;
   transform: translate(0px, 120%);
   opacity: 0;
   visibility: hidden;
 }
 
 .animation-left {
+  transition: all 0.6s ease 0s;
   transform: translate(-120%, 0px);
   opacity: 0;
   visibility: hidden;
 }
 
 .animation-right {
+  transition: all 0.6s ease 0s;
   transform: translate(120%, 0px);
   opacity: 0;
   visibility: hidden;
 }
 
 .animation-opacity {
+  transition: all 0.6s ease 0s;
   transform: translate(0px, 60%);
   opacity: 0;
   visibility: hidden;
@@ -821,6 +825,7 @@ button {
 
 @media (min-width: 767.98px) {
   .main-tabs__trigger-items {
+    transition: all 0.6s ease 0s;
     transform: translate(-120%, 0px);
     opacity: 0;
     visibility: hidden;
@@ -832,6 +837,7 @@ button {
   }
 }
 .animation-hidden {
+  transition: all 0.6s ease 0s;
   opacity: 0;
   visibility: hidden;
 }
