@@ -2678,15 +2678,6 @@ button {
   }
 }
 
-.path1 {
-  stroke-dasharray: 34px;
-  stroke-dashoffset: 34px;
-}
-
-.main-tabs__content._start-anim .path1 {
-  animation: line 1s ease-in-out forwards;
-}
-
 .case-body__item._start-anim .path6 {
   animation: opacitys 1s ease;
 }
