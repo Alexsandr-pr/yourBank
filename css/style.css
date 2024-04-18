@@ -357,7 +357,7 @@
   right: 0;
   top: 0;
   z-index: 1;
-  content: url(../img/page/page4/decor.svg);
+  content: url(../img/page/page4/AbstractDesign4.png);
 }
 
 .main-forms__body::before {
@@ -2282,14 +2282,6 @@ button {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px;
-}
-
-.main-start__body::after {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  left: 0;
-  content: url(../img/page/page1/AbstractDesign.svg);
 }
 
 .main-start__header-item {
