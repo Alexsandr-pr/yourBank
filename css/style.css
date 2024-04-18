@@ -639,6 +639,7 @@
 
 .main-welcome__image img {
   max-width: 100%;
+  height: auto;
 }
 
 .currency._active {
