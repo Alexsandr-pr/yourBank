@@ -2,6 +2,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Inter:regular&display=swap);
 
+@import url(https://fonts.googleapis.com/css?family=Lexend:300,regular,500,600&display=swap);
+
 @font-face {
   font-family: CormorantUpright;
   font-display: swap;
@@ -3890,7 +3892,7 @@ input:-webkit-autofill:placeholder-shown {
   }
 
   .main-start__header-item .header-item__title {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   .main-values {
@@ -4700,7 +4702,7 @@ input:-webkit-autofill:placeholder-shown {
   }
 
   .main-start__header-item .header-item__title {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 
   .main-values {
